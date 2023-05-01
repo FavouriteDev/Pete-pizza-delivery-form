@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online Pizza Delivery Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Pete's Pizza Delivery</h1>
+    <h2>Online Order Form</h2>
+    <form>
+      <label id="name"for="name">*Name:  
+        <input type="text" name="name"  class="form-input" />
+      </label>
+      <label id="tel" for="Tel">*Tel
+        <input type="number" name="tel"  class="form-input" />
+      </label><br>
+      <label id="address"for="address">*Address:  
+        <input type="text" name="address"  class="form-input" />
+      </label>
+      <label id="email" for="email">*Email: 
+        <input type="email" name="email"  class="form-input" />
+      </label><br>
+      <label id="town-city"for="town-city">*Town/city:  
+        <input type="text" name="town-city"  class="form-input"/><br>
+      </label>
+      <label id="passcode " for="passcode">*Passcode
+        <input type="number" name="passcode" class="form-input" />
+      </label><br>
+      <p class="required">* required fields</p>
+      <div class="span-div"> 
+        <p class="span">Toppings<span class="span">Size<span><span class="span">Extras<span></p>
+      </div>
+      <div>
+      <label id="Magarita" for="Magarita">
+        <input type="radio" name="Magarita" class="form-input">Magarita
+      </label>
+      <label id="small" for="small">
+        <input type="radio" name="small" class="form-input">small
+      </label>
+      <label id="mushrooms" for="mushrooms">
+          <input type="checkbox" name="mushrooms" class="form-input">mushrooms
+      <label>
+      </div>
+      <div>
+        <label id="four-season" for="four-season">
+          <input type="radio" name="four-season" class="form-input" />four season
+        </label>
+        <label id="medium" for="medium">
+          <input type="radio" name="medium" class="form-input">medium
+        </label>
+        <label id="green-pepper" for="green-pepper" >
+            <input type="checkbox" name="green-pepper" class="form-input">green pepper
+        </label>
+      </div>
+      <div>
+        <label id="meatfeast" for="meatfeast" >
+          <input type="radio" name="meatfeast" class="form-input"/>meat feast
+        </label>
+        <label id="large" for="large">
+          <input type="radio" name="large"  class="form-input">large
+        </label>
+        <label id="Anchovies" for="Anchovies">
+            <input type="checkbox" name="Anchovies"  class="form-input">Anchovies
+        </label>
+      </div>
+      <div>
+        <label id="Extra-Cheese" for="Extra-Cheese" >
+          <input type="checkbox" name="Extra-Cheese"  class="form-input">Extra Cheese
+        </label>
+      </div>
+      <div class="delv-time">
+        <label id="delv-time" for="delv-time" >Preffered Delivery Time
+          <input type="time" name="delv-time"  class="delv-time">
+        </label>
+      </div>
+      <div>
+        <label id="delv-instruction" for="delv=instruction" >Delivery instructions
+          <input type="textarea" name="delv-instruction"  class="delv-inst">
+        </label>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      <div>
+    </form>
+  </body>
+</html>
